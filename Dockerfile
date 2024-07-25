@@ -6,6 +6,8 @@ RUN apt install -y apache2
 RUN apt install -y apache2-utils 
 RUN apt install -y php8.1 
 RUN apt install -y openssl
+RUN apt install -y php8.1-mysqli
+RUN apt install -y php8.1-pdo-mysql
 RUN apt install -y php8.1-pdo
 RUN apt install -y php8.1-mbstring
 RUN apt install -y php8.1-tokenizer
